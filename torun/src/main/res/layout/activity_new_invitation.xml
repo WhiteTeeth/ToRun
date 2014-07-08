@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}">
+
+    <Button
+        android:id="@+id/invitation_datepicker"
+        android:text="@string/invitation_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_toRightOf="@id/invitation_datepicker"
+        android:id="@+id/invitation_timepicker"
+        android:text="@string/invitation_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/invitation_place"
+        android:hint="@string/invitation_place"
+        android:layout_below="@id/invitation_datepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/invitation_content"
+        android:gravity="left|top"
+        android:layout_above="@+id/invitation_button_layout"
+        android:layout_below="@id/invitation_place"
+        android:hint="@string/invitation_content_hint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/invitation_button_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/invitation_cancel"
+            android:text="@string/invitation_cancel"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/invitation_confirm"
+            android:text="@string/invitation_send"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+</RelativeLayout>

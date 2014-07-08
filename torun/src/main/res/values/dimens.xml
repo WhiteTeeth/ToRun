@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="avatar_width">80dp</dimen>
+    <dimen name="avatar_height">80dp</dimen>
+    <dimen name="avatar_radius">10dp</dimen>
+
+    <dimen name="neighbor_padding">10dp</dimen>
+    <dimen name="invitation_padding">10dp</dimen>
+
+    <dimen name="runtime_radius">5dp</dimen>
+    </resources>

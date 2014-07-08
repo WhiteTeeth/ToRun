@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.dian.torun.ui.activity.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/register_avatar"
+        android:src="@drawable/default_avatar"
+        android:layout_width="@dimen/avatar_width"
+        android:layout_height="@dimen/avatar_height" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <TextView
+            android:text="@string/register_showname"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/register_name"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <TextView
+            android:text="@string/gender"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <RadioGroup
+            android:id="@+id/register_gender"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioButton
+                android:id="@+id/register_male"
+                android:text="@string/male"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <RadioButton
+                android:id="@+id/register_female"
+                android:text="@string/female"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            </RadioGroup>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <TextView
+            android:text="@string/age"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <EditText
+            android:inputType="number"
+            android:id="@+id/register_birth"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/register_runtime"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/register_runtime_earlymorning"
+                android:background="@drawable/btn_runtime_earlymorning"
+                android:text="@string/runtime_earlymorning"
+                style="@style/RuntimeStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/register_runtime_morning"
+                style="@style/RuntimeStyle"
+                android:background="@drawable/btn_runtime_morning"
+                android:text="@string/runtime_morning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/register_runtime_noon"
+                style="@style/RuntimeStyle"
+                android:background="@drawable/btn_runtime_noon"
+                android:text="@string/runtime_noon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/register_runtime_afternoon"
+                style="@style/RuntimeStyle"
+                android:background="@drawable/btn_runtime_afternoon"
+                android:text="@string/runtime_afternoon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/register_runtime_eveing"
+                style="@style/RuntimeStyle"
+                android:background="@drawable/btn_runtime_evening"
+                android:text="@string/runtime_evening"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/register_runtime_night"
+                style="@style/RuntimeStyle"
+                android:background="@drawable/btn_runtime_night"
+                android:text="@string/runtime_night"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

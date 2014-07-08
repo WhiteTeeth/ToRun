@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">约跑</string>
+
+    <!-- Title of the navigation drawer, used by accessibility to announce state changes. -->
+    <string name="drawer_title">约跑</string>
+
+    <!-- Description of the icon that opens the navigation drawer, used by accessibility. -->
+    <string name="drawer_open">Open navigation drawer</string>
+
+    <!-- Description of the icon that closes the navigation drawer, used by accessibility. -->
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_title_neighbor">附近跑友</string>
+    <string name="drawer_title_friends">约跑好友</string>
+    <string name="drawer_title_invitation">约定</string>
+    <string name="title_activity_login">登陆</string>
+    <string name="title_activity_user">用户</string>
+    <string name="title_activity_arrangements">约定</string>
+    <string name="title_activity_friends">跑友</string>
+    <string name="gender_unknown">未知</string>
+    <string name="gender_male">男</string>
+    <string name="gender_female">女</string>
+    <string name="refresh_list_success">刷新成功</string>
+    <string name="refresh_list_failed">刷新失败</string>
+    <string name="title_activity_register">注册</string>
+    <string name="register">注册</string>
+    <string name="time_just">刚刚</string>
+    <string name="time_second">秒</string>
+    <string name="time_minute">分钟</string>
+    <string name="time_hour">小时</string>
+    <string name="time_day">天</string>
+    <string name="time_yesterday">昨天</string>
+    <string name="time_month">月</string>
+    <string name="time_year">年</string>
+    <string name="time_before">前</string>
+    <string name="title_activity_new_invitation">新约定</string>
+    <string name="title_activity_detailed_invitation">邀请</string>
+    <string name="user_edit">编辑</string>
+
+    <string name="runtime_earlymorning">清晨</string>
+    <string name="runtime_morning">上午</string>
+    <string name="runtime_noon">中午</string>
+    <string name="runtime_afternoon">下午</string>
+    <string name="runtime_evening">傍晚</string>
+    <string name="runtime_night">夜晚</string>
+
+    <string name="runtime_hint">习惯跑步时间段</string>
+
+    <string name="invitation_refuse">拒绝</string>
+    <string name="invitation_accept">接受</string>
+    <string name="invitation_content_hint">捎给你的话</string>
+    <string name="invitation_place">约定地点</string>
+    <string name="invitation_time">约定时间</string>
+    <string name="invitation_date">约定日期</string>
+
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="gender">性别</string>
+    <string name="register_showname">昵称</string>
+    <string name="age">年龄</string>
+    <string name="register_runtime">喜欢跑步时间段</string>
+
+    <string name="notify_message">有新的约定消息</string>
+</resources>

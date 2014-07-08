@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="activity_bg" >#f0f0f0</color>
+
+    <color name="text_default" >#000000</color>
+
+    <color name="text_white">#ffffff</color>
+
+    <color name="drawer_bg">#374949</color>
+
+    <color name="actionbar_bg">#428888</color>
+
+    <color name="blue_light">#89c7f6</color>
+
+    <color name="pick_light">#fda5b5</color>
+
+    <color name="text_bg_blue">#539cd3</color>
+    <color name="text_bg_purple">#696fab</color>
+    <color name="text_bg_green">#00a897</color>
+    <color name="text_bg_yellow">#fbc24f</color>
+    <color name="text_bg_pick">#ef775c</color>
+    <color name="text_bg_ink">#464547</color>
+
+    <color name="crouton_alert">#BBff4444</color>
+    <color name="crouton_confirm">#BB99cc00</color>
+</resources>

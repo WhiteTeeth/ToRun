@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    android:background="@drawable/bg_listitem"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:padding="@dimen/neighbor_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/neighbor_avatar"
+            android:src="@drawable/default_avatar"
+            android:layout_width="@dimen/avatar_width"
+            android:layout_height="@dimen/avatar_height" />
+
+        <TextView
+            android:id="@+id/neighbor_name"
+            android:layout_toRightOf="@id/neighbor_avatar"
+            android:background="@color/activity_bg"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/neighbor_age"
+            android:textColor="@color/text_white"
+            android:textSize="10sp"
+            android:drawablePadding="5dp"
+            android:background="@drawable/bg_gender_male"
+            android:drawableLeft="@drawable/ic_user_male"
+            android:layout_below="@id/neighbor_name"
+            android:layout_alignLeft="@id/neighbor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/neighbor_request"
+            android:text="@string/invitation"
+            android:layout_alignParentRight="true"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:paddingLeft="@dimen/neighbor_padding"
+        android:paddingRight="@dimen/neighbor_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/neighbor_lastplace"
+            android:gravity="center_vertical"
+            android:textSize="14dp"
+            android:drawableLeft="@drawable/ic_user_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/neighbor_lasttime"
+            android:textSize="14dp"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:padding="@dimen/neighbor_padding"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingBottom="10dp"
+            android:hint="@string/runtime_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/neighbor_runtime"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textColor="@color/text_white"
+                android:layout_margin="1dp"
+                android:background="@drawable/bg_runtime_earlymorning" />
+            <TextView android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textColor="@color/text_white"
+                android:background="@drawable/bg_runtime_earlymorning" />
+            <TextView android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textColor="@color/text_white"
+                android:background="@drawable/bg_runtime_earlymorning" />
+            <TextView android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textColor="@color/text_white"
+                android:background="@drawable/bg_runtime_earlymorning" />
+            <TextView android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textColor="@color/text_white"
+                android:background="@drawable/bg_runtime_earlymorning" />
+            <TextView android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textColor="@color/text_white"
+                android:background="@drawable/bg_runtime_earlymorning" />
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
+</FrameLayout>
